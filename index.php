@@ -8,7 +8,7 @@ session_start();
 </head>
 <body>
   <?php
-  echo '<h2>This is a test from Vorealis 2 </h2>'.'</br>';
+  echo '<h2>This is a test from Vorealis 3 </h2>'.'</br>';
     if (isset($_SESSION['message']) && $_SESSION['message'])
     {
       printf('<b>%s</b>', $_SESSION['message']);
