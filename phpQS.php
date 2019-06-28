@@ -136,7 +136,7 @@ if (!isset($_GET["Cleanup"])) {
             $listBlobsOptions->setContinuationToken($result->getContinuationToken());
         } while($result->getContinuationToken());
         echo "<br />";
-        unlink($myfile);
+        unlink($fileToUpload);
 
         // Get blob.
         /*echo "This is the content of the blob uploaded: ";
